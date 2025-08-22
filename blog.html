@@ -18,8 +18,18 @@
     <!-- ashley scss -->
     <link rel="stylesheet" href="css/style.css">
     <!-- page name -->
-<title>Raqm</title>
+    <title>Raqm</title>
+    <meta name="description" content="Raqm is a creative agency specializing in web development, mobile apps, branding, and smart systems. We transform ideas into reality with innovative solutions and boundless creativity for businesses seeking excellence.">
+    <meta property="og:title" content="Raqm - Creative Agency">
+    <meta property="og:description" content="Raqm is a creative agency specializing in web development, mobile apps, branding, and smart systems.">
+    <meta property="og:image" content="https://raqmhut.com/img/branding.png">
+    <meta property="og:url" content="https://raqmhut.com/">
+    <meta name="twitter:card" content="summary_large_image">
+
     <link rel="icon" href="img/black.png" type="image/x-icon">
+    <link rel="icon" href="img/black.png" type="image/png">
+
+
 </head>
 
 <body>
@@ -39,23 +49,6 @@
         </div>
         <!-- cursor end -->
 
-        <!-- preloader -->
-        <div class="mil-preloader">
-            <div class="mil-preloader-animation">
-                <div class="mil-pos-abs mil-animation-1">
-                    <p class="mil-h3 mil-muted mil-thin">Pioneering</p>
-                    <p class="mil-h3 mil-muted">Creative</p>
-                    <p class="mil-h3 mil-muted mil-thin">Excellence</p>
-                </div>
-                <div class="mil-pos-abs mil-animation-2">
-                    <div class="mil-reveal-frame">
-                        <p class="mil-reveal-box"></p>
-                        <p class="mil-h3 mil-muted mil-thin">ashley.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- preloader end -->
 
         <!-- scrollbar progress -->
         <div class="mil-progress-track">
@@ -67,9 +60,10 @@
         <div class="mil-menu-frame">
             <!-- frame clone -->
             <div class="mil-frame-top">
-                <a href="index.html"  ><img src="img/logo.png" alt="" style="width: 100px; height: 100px; position: relative; top: 5px; right: 20px;" class="mil-logo"></a>
-                
-            </div>
+                <a href="index.html" data no swup class="mil-logo">A.</a>
+                <div class="mil-menu-btn">
+                    <span></span>
+                </div>
             </div>
             <!-- frame clone end -->
             <div class="container">
@@ -82,7 +76,7 @@
                                     <li class="mil-has-children">
                                         <a href="#.">Homepage</a>
                                         <ul>
-                                            <li><a href="index.html">Landing page</a></li>
+                                            <li><a href="index.html" data no swup>Landing page</a></li>
                                             <li><a href="home-2.html">Personal</a></li>
                                             <li><a href="portfolio-3.html">Portfolio slider</a></li>
                                         </ul>
@@ -102,14 +96,14 @@
                                             <li><a href="service.html">Single service</a></li>
                                         </ul>
                                     </li>
-                                    <li class="mil-has-children">
+                                    <li class="mil-has-children mil-active">
                                         <a href="#.">Newsletter</a>
                                         <ul>
                                             <li><a href="blog.html">Blog List</a></li>
                                             <li><a href="publication.html">Publication</a></li>
                                         </ul>
                                     </li>
-                                    <li class="mil-has-children mil-active">
+                                    <li class="mil-has-children">
                                         <a href="#.">Other pages</a>
                                         <ul>
                                             <li><a href="team.html">Team</a></li>
@@ -192,10 +186,9 @@
 
         <!-- frame -->
         <div class="mil-frame">
-           <div class="mil-frame-top">
-                <a href="index.html"  ><img src="img/logo.png" alt="" style="width: 100px; height: 100px; position: relative; top: 5px; right: 20px;" class="mil-logo"></a>
+            <div class="mil-frame-top">
+                <a href="index.html" data-no-swup ><img src="img/logo.png" alt="" style="width: 100px; height: 100px; position: relative; top: 5px; right: 20px;" class="mil-logo"></a>
                 
-            </div>
             </div>
             <div class="mil-frame-bottom">
                 <div class="mil-current-page"></div>
@@ -212,31 +205,169 @@
         <div class="mil-content">
             <div id="swupMain" class="mil-main-transition">
 
-                <!-- 404 -->
-                <div class="mil-404-banner mil-dark-bg">
-                    <div class="mil-animation-frame">
-                        <div class="mil-animation mil-position-4 mil-scale" data-value-1="9" data-value-2="1.4" style="right: 40%;"></div>
-                    </div>
-                    <div class="mi-invert-fix mil-up">
+                <!-- banner -->
+                <div class="mil-inner-banner mil-p-0-120">
+                    <div class="mil-banner-content mil-up">
+                        <div class="mil-animation-frame">
+                            <div class="mil-animation mil-position-4 mil-dark mil-scale" data-value-1="6" data-value-2="1.4"></div>
+                        </div>
                         <div class="container">
-                            <div class="mil-404-frame">
-
-                                <div class="mil-scale-frame">
-
-                                    <h1 class="mil-404" data-text="404">404</h1>
-
-                                </div>
-
-                                <h4 class="mil-404-text mil-dark mil-mb-60">Oops! Something went wrong :(</h4>
-                                <a href="index.html" class="mil-button mil-arrow-place">
-                                    <span>Back to homepage</span>
-                                </a>
-                            </div>
-
+                            <ul class="mil-breadcrumbs mil-mb-60">
+                                <li><a href="index.html" data-no-swup>Homepage</a></li>
+                                <li><a href="blog.html" data-no-swup>Blog</a></li>
+                            </ul>
+                            <h1 class="mil-mb-60">Exploring <span class="mil-thin">the World</span> <br> Through Our <span class="mil-thin">Blog</span></h1>
+                            <a href="#blog" class="mil-link mil-dark mil-arrow-place mil-down-arrow">
+                                <span>Publications</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <!-- 404 end -->
+                <!-- banner end -->
+
+                
+ <!-- popular -->
+                <section class="mil-soft-bg" id="blog">
+                    <div class="container mil-p-120-60">
+                        <div class="row align-items-center mil-mb-30">
+                            <div class="col-lg-6 mil-mb-30">
+                                <h3 class="mil-up">Blogs:</h3>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+
+                                <a href="blog1.html" data-no-swup class="mil-blog-card mil-mb-60">
+                                    <div class="mil-cover-frame mil-up">
+                                        <img src="img/blog/blog1.webp" alt="cover">
+                                    </div>
+                                    <div class="mil-post-descr">
+                                        <div class="mil-labels mil-up mil-mb-30">
+                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
+                                            <div class="mil-label mil-upper">Aug 22 2025</div>
+                                        </div>
+                                        <h4 class="mil-up mil-mb-30">Top Programming Languages in 2025: A No-Nonsense Guide</h4>
+                                        <p class="mil-post-text mil-up mil-mb-30">A clear 2025 guide to today’s most useful programming languages where each one fits, the trade offs to expect and how to quickly pick the right stack.</p>
+                                        <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                            <span>Read more</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="col-lg-6">
+
+                                <a href="blog2.html" data-no-swup class="mil-blog-card mil-mb-60">
+                                    <div class="mil-cover-frame mil-up">
+                                        <img src="img/blog/blog2.webp" alt="cover">
+                                    </div>
+                                    <div class="mil-post-descr">
+                                        <div class="mil-labels mil-up mil-mb-30">
+                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
+                                            <div class="mil-label mil-upper">Aug 24 2025</div>
+                                        </div>
+                                        <h4 class="mil-up mil-mb-30">Frontend vs Backend Development: A No-Nonsense 2025 Guide</h4>
+                                        <p class="mil-post-text mil-up mil-mb-30">Understand the real differences between frontend and backend what each does, tools used, how they work together and how to choose your path.</p>
+                                        <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                            <span>Read more</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- popular end -->
+
+                
+
+                <!-- footer -->
+                <footer class="mil-dark-bg" id="contact">
+                    <div class="mi-invert-fix">
+                        <div class="container mil-p-120-60">
+                            <div class="row justify-content-between">
+                                <div class="col-md-4 col-lg-4 mil-mb-60">
+
+                                    <div class="mil-muted mil-logo mil-up mil-mb-30"> <img src="img/branding.png" alt="" style="width: 412.667px; height: 360px; position: relative; bottom: 100px;">
+                            <div>
+                                <a href="mailto:info@raqmhut.com" class="mail" data-no-swup>info@raqmhut.com</a></div>
+                                    </div>
+                                        
+                                    
+
+                                </div>
+                                <div class="col-md-7 col-lg-6" style="position: relative; right: 250px;">
+                                    <div class="row justify-content-end">
+                                        <div class="col-md-6 col-lg-7">
+
+                                            <nav class="mil-footer-menu mil-mb-60">
+                                                <ul>
+                                                    <li class="mil-up">
+                                                        <a href="index.html#top"  data-no-swup>Home</a>
+                                                    </li>
+                                                    <li class="mil-up">
+                                                        <a href="index.html#about"  data-no-swup>Our Hut</a>
+                                                    </li>
+                                                    <li class="mil-up">
+                                                        <a href="index.html#services"  data-no-swup>What We Do</a>
+                                                    </li>
+                                                    <li class="mil-up">
+                                                        <a href="index.html#reviews"  data-no-swup>Mega Projects</a>
+                                                    </li>
+
+                                                </ul>
+                                            </nav>
+
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-between flex-sm-row-reverse">
+                                <div class="col-md-7 col-lg-6">
+
+                                    <div class="row justify-content-between">
+
+                                        <div class="col-md-6 col-lg-5 mil-mb-60">
+
+                                            <h6 class="mil-muted mil-up mil-mb-30">Cairo, Egypt</h6>
+
+                                            <p class="mil-light-soft mil-up">71 Mostafa El-Nahas St. Nasr City <br><span class="mil-no-wrap">+20 155 666 1672</span></p>
+
+                                        </div>
+                                        <div class="col-md-6 col-lg-5 mil-mb-60">
+
+                                            <h6 class="mil-muted mil-up mil-mb-30">Alexandria, Egypt</h6>
+
+                                            <p class="mil-light-soft mil-up">16 Mohamed Saleh Abu St. Saba Pasha <br><span class="mil-no-wrap">+20 106 552 6089</span></p>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4 col-lg-6 mil-mb-60">
+
+                                    <div class="mil-vert-between">
+                                        <div class="mil-mb-30">
+                                            <ul class="mil-social-icons mil-up">
+                                                <li><span target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>
+                                                <li><span target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>
+                                                <li><span target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>
+                                                <li><span target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <p class="mil-light-soft mil-up">© Copyright 2025 - Raqm. All Rights Reserved.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- footer end -->
 
                 <!-- hidden elements -->
                 <div class="mil-hidden-elements">
@@ -372,6 +503,3 @@
 </body>
 
 </html>
-
-
-
